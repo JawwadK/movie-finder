@@ -1,0 +1,60 @@
+.exportTitle {
+    text-align: center;
+}
+
+.exportPage {
+    display: grid;
+	margin-left: auto;
+	margin-right: auto;
+	grid-gap: 1em;
+    padding: 10px;
+	max-width: 100%;
+    min-height: calc(100vh - 133px);
+}
+
+.exportBtnContainer {
+    display: flex;   
+}
+
+.exportBtn {
+    background: var(--purple);
+	cursor: pointer;
+	color: var(--white);
+	border-radius: 25px;
+    margin: 20px;
+    width: max-content;
+	padding: 10px;
+	border: none;
+    margin-left: 0px;
+	
+}
+.icon {
+    margin-right: 8px;
+}
+
+.export-link {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.displayTable {
+    overflow-x: scroll;
+}
+
+table {
+    width: 100%;
+    color: var(--head-light);
+}
+
+table, tbody, tr, td, caption{
+    border: 1px solid var(--head-light);
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+ td, tr {
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

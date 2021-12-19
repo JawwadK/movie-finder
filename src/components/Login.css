@@ -1,0 +1,86 @@
+.login {
+	background: var(--dark);
+	min-height: calc(100vh - 155px);
+	display: grid;
+	place-items: center;
+}
+
+.loginLogo {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	object-fit: contain;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.loginContainer {
+	height: fit-content;
+	display: flex;
+	flex-direction: column;
+	border-radius: 5px;
+	background: var(--grey);
+	padding: 30px 60px;
+}
+
+.loginContainer > h1 {
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.loginContainer > form > h5 {
+	margin-bottom: 5px;
+}
+
+.loginContainer > form > input {
+	height: 30px;
+	margin-bottom: 10px;
+    border-radius: 25px;
+    padding-left: 10px;
+	border: none;
+	background-color: white;
+	width: 98%;
+}
+
+.loginContainer > p {
+	margin-top: 15px;
+	font-size: 12px;
+}
+
+.loginSignInButton {
+	background: var(--purple);
+	cursor: pointer;
+	color: var(--white);
+	border-radius: 25px;
+	padding: 5px;
+	width: 100%;
+	height: 30px;
+	border: none;
+	margin-top: 10px;
+}
+
+.loginRegisterButton {
+	cursor: pointer;
+	width: 100%;
+	height: 30px;
+	border: none;
+	margin-top: 10px;
+	border-radius: 25px;
+}
+
+.link-login {
+    text-align: center;
+    color: var(--purple);
+    text-decoration: none;
+}
+
+.linkToregister {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.link-login:hover {
+    text-decoration: underline;
+
+}

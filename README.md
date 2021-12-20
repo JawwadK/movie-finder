@@ -2,7 +2,7 @@
 
 This project was created for a CPS842 - Info Retrieval and Web Search Final Project
 
-## Collaboraators
+## Collaborators
 
  - [Seyon Rajagopal](https://github.com/seyon123) 
  - [Jacky Ly](https://github.com/lyjacky11)

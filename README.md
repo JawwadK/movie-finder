@@ -1,6 +1,6 @@
 # Movie Recommender System
 
-This project was created for a CPS842 - Info Retrieval and Web Search Final Project
+This final project was created in the CPS842 - Info Retrieval and Web Search course at Ryerson University.
 
 ## Collaborators
 
@@ -10,9 +10,10 @@ This project was created for a CPS842 - Info Retrieval and Web Search Final Proj
 
 ## Live Version
 
-[Live Version Here](https://cps842-movie-ratings.web.app/)
-Login Info: 
+[Live Demo Link](https://cps842-movie-ratings.web.app/)
+
+### Demo Account for Login: 
 
 Username: demo@demo.com 
 
-Password:123456
+Password: 123456
